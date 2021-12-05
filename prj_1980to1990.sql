@@ -56,3 +56,45 @@ CREATE TABLE Titles (
 -- IMPORTED salaries check
 -- IMPORTED titles check
 
+-- CREATING A TABLE THAT ALREADY EXIST...JUST COPYING THE COLUMNS 
+-- CREATE TABLE new_table_name AS
+--     SELECT column1, column2,...
+--     FROM existing_table_name
+--     WHERE ....;
+
+-- NUMBER 1
+
+CREATE TABLE employee_info AS
+SELECT emp_no, last_name, first_name, sex 
+FROM employees;
+
+-- OR USE 
+-- Query to display the many-to-many relationships
+SELECT employees.emp_no, employees.last_name, employees.first_name, employees.sex, salaries.salary
+FROM employees
+LEFT JOIN salaries
+ON salaries.emp_no = employees.emp_no;
+
+-- NUMBER 2
+
+SELECT employees.first_name, employees.last_name, employees.hire_date
+FROM employees
+WHERE employees.hire_date BETWEEN'1/1/1986' AND '12/31/1986'
+
+-- OR 
+
+CREATE TABLE employee_1986 AS
+SELECT employees.first_name, employees.last_name, employees.hire_date
+FROM employees
+WHERE hire_date LIKE '%1986'
+
+-- NUMBER 3
+
+SELECT departments.dept_no, departments.dept_name, dept_manager.emp_no, employees.last_name, employees.first_name
+FROM departments
+LEFT JOIN dept_manager
+ON dept_manager.dept_no = departments.dept_no
+LEFT JOIN employees
+ON employees.emp_no = dept_manager.emp_no;
+
+-- NUMBER 4
