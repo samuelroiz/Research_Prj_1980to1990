@@ -161,3 +161,36 @@ ON dept_emp.dept_no = departments.dept_no
 WHERE departments.dept_name = 'Sales'
 
 -- NUMbER 7
+
+SELECT employees.emp_no, employees.last_name, employees.first_name, departments.dept_name
+FROM employees
+LEFT JOIN dept_emp
+ON employees.emp_no = dept_emp.emp_no
+LEFT JOIN dept_manager
+ON employees.emp_no = dept_manager.emp_no
+LEFT JOIN departments
+ON dept_emp.dept_no = departments.dept_no
+WHERE departments.dept_name = 'Development' OR departments.dept_name = 'Sales'
+
+-- NUMBER 8
+
+SELECT
+    last_name, COUNT(*)
+FROM
+    employees
+GROUP BY
+    last_name
+HAVING 
+    COUNT(*) > 1
+
+---- FOR ORDER BY
+
+SELECT
+    last_name, COUNT(*)
+FROM
+    employees
+GROUP BY
+    last_name
+HAVING 
+    COUNT(*) > 1
+ORDER BY count DESC
