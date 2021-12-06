@@ -97,4 +97,43 @@ ON dept_manager.dept_no = departments.dept_no
 LEFT JOIN employees
 ON employees.emp_no = dept_manager.emp_no;
 
+------- OTHER WAYS TO DO THIS... does not have to be in exact order yet the outcome is the same
+SELECT departments.dept_no, departments.dept_name, dept_manager.emp_no, employees.last_name, employees.first_name
+FROM departments
+LEFT JOIN dept_manager
+ON dept_manager.dept_no = departments.dept_no
+LEFT JOIN employees
+ON employees.emp_no = dept_manager.emp_no;
+
+SELECT departments.dept_no, departments.dept_name, dept_manager.emp_no, employees.title_id, employees.last_name, employees.first_name
+FROM departments
+LEFT JOIN dept_manager
+ON dept_manager.dept_no = departments.dept_no
+LEFT JOIN employees
+ON employees.emp_no = dept_manager.emp_no;
+
+select dm.dept_no, d.dept_name, dm.emp_no, e.last_name, e.first_name, e.hire_date 
+from dept_manager dm
+join departments d
+    on dm.dept_no = d.dept_no
+join employees e
+    on dm.emp_no = e.emp_no
+join dept_emp de
+    on dm.emp_no = de.emp_no
+
 -- NUMBER 4
+
+SELECT dept_emp.emp_no, departments.dept_name, employees.emp_no, employees.last_name, employees.first_name
+FROM employees
+LEFT JOIN dept_emp
+ON employees.emp_no = dept_emp.emp_no
+LEFT JOIN departments
+ON dept_emp.dept_no = departments.dept_no;
+
+-- NUMBER 5
+
+SELECT first_name, last_name, sex
+FROM employees
+WHERE first_name = 'Hercules' AND last_name LIKE 'B%'
+
+-- NUMBER 6
