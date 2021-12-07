@@ -10,6 +10,8 @@ The following table displays the department number and its name depending on the
 
 ![Departments Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/Raw%20Table/departments_table.png)
 
+### Departments Employee Table Example
+
 ![Departments Employee Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/Raw%20Table/dept_emp_table.png)
 
 ![Departments Manager Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/Raw%20Table/dept_manager_table.png)
