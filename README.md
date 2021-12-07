@@ -1,7 +1,7 @@
 # Research_Prj_1980to1990
 
 ## About the Project...
-Hired as a new data engineer at Pewlett Hackard and given a task is a research project on employees of the corporation from the 1980s and 1990s. All that remains from the database of employees from that period is six CSV files.
+Hired as a new data engineer at Pewlett Hackard and given a task is a research project on employees of the corporation from the 1980s and 1990s. All that remains from the database of employees from that period is six CSV files. The six cvs file are departments.csv, dept_emp.csv, dept_manager.csv, employees.csv, salaries.csv, and titles.csv. 
 
 ## Raw Data Table's
 
