@@ -6,3 +6,13 @@ Hired as a new data engineer at Pewlett Hackard and given a task is a research p
 ## Raw Data Table's
 
 ![Departments Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/Raw%20Table/departments_table.png)
+
+![Departments Employee Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/Raw%20Table/dept_emp_table.png)
+
+![Departments Manager Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/Raw%20Table/dept_manager_table.png)
+
+![Employee Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/Raw%20Table/employees_table.png)
+
+![Salaries Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/Raw%20Table/salaries_table.png)
+
+![Titles Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/Raw%20Table/titles_table.png)
