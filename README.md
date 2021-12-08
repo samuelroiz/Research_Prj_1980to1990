@@ -3,8 +3,9 @@
 ## About the Project...
 Hired as a new data engineer at Pewlett Hackard and given a task is a research project on employees of the corporation from the 1980s and 1990s. All that remains from the database of employees from that period is six CSV files. The six cvs file are departments.csv, dept_emp.csv, dept_manager.csv, employees.csv, salaries.csv, and titles.csv. Each cvs file will be converted to tables in sql and have relations with one and other. In the following image displays the tables and the relations with each other. 
 
-
 ![Work Diagram](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/Diagram/diagram_sql.png)
+
+In the following image, it shows there are a total of six relations. The highlighted blue variables in the table are known as the primary keys and the rest are either foriegn keys or numeric or strings. 
 
 ## Raw Data Table's
 
