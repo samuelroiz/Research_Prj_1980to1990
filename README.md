@@ -44,3 +44,21 @@ The following table only holds a variable and a foreign key. The foreign key is 
 The final raw table holds the title and the title id. The title id is a primary key. The 'Employee Table' is connected to the title id. 
 
 ![Titles Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/Raw%20Table/titles_table.png)
+
+## Examples of SQL Convert Tables 
+
+![1986 Hire Date Only Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/1986_hire_date_employee_info_table.png)
+
+![Multiple Departments Only Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/development_sales_departments_employees_info_table.png)
+
+![Employee Department Info Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/employee_department_info_table.png)
+
+![Employee Info w/ Salary Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/employee_info_table.png)
+
+![Last Name Count Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/last_name_count_table.png)
+
+![Manager Department Info Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/manager_department_info_table.png)
+
+![Name Search Example Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/name_search_hercules_b_example_table.png)
+
+![One Department Example Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/sales_department_employees_info.png)
