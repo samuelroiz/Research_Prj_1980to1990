@@ -47,8 +47,6 @@ The final raw table holds the title and the title id. The title id is a primary 
 
 ## Examples of SQL Convert Tables 
 
-![1986 Hire Date Only Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/1986_hire_date_employee_info_table.png)
-
 ![Multiple Departments Only Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/development_sales_departments_employees_info_table.png)
 
 ![Employee Department Info Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/employee_department_info_table.png)
