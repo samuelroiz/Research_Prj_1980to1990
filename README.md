@@ -9,6 +9,7 @@ The following image, shows there are a total of six relations. The highlighted b
 
 ## Raw Data Table's
 
+
 ### Departments Table
 
 The following table displays the department number and its name depending on the department number. There are only nine departments total and depending on the department's row will give the departments number. Look at 'Production' in the 'dept_name' column. It is in row four so it will have a department number label of 'd004'. Also, the column 'dept_no' will be set as a primary key. If you look in the work diagram, you will find a highlighted blue variable and 'dept_no' is one of them. 
