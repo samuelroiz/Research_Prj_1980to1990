@@ -64,3 +64,28 @@ The following image displays an example of filtering the table of specific depar
 ![Name Search Example Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/name_search_hercules_b_example_table.png)
 
 ![One Department Example Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/sales_department_employees_info.png)
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/samuelroiz/1af49ec9eea365bc845ba04c5071a976) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Samuel Roiz** - *Data clean, Analyzed Data, Math Model* - [Profile](https://github.com/samuelroiz)
+
+See also the list of [contributors](https://github.com/samuelroiz) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://gist.github.com/samuelroiz/1af49ec9eea365bc845ba04c5071a976) file for details
+
+## Acknowledgments
+
+* Pewlett Hackard 
+* USC Data Visualization
+* CSUN Mathematics
+
