@@ -60,9 +60,7 @@ This image displays an example of filtering the table for specific departments o
 
 ![Last Name Count Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/last_name_count_table.png)
 
-![Manager Department Info Table](https://github.com/samuelroiz/Research_Prj_1980to1990
-
-/blob/main/Images/manager_department_info_table.png)
+![Manager Department Info Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/manager_department_info_table.png)
 
 ![Name Search Example Table](https://github.com/samuelroiz/Research_Prj_1980to1990/blob/main/Images/name_search_hercules_b_example_table.png)
 
